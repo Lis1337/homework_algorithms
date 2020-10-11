@@ -8,9 +8,13 @@ n = 7
 asd = [4,3,2,3,5,2,1]
 
 def coin_counter(asd):
-    if k == 1 or (sum(asd) % k) == 0:
+    if sum(asd) % k != 0:
+        return False
+    if k == 1:
         return True
+    z = sum(asd) / k
     
+
 
 
 
